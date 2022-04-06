@@ -20,16 +20,16 @@
     <section class="pass">
       <div class="container">
         <div class="pass__box">
-          <div class="pass__inputbox">
+          <div class="pass__inputbox" id="inputbox">
             <input class="pass__input" type="password" id="pass" placeholder="Password">
             <i class='bx bxs-lock-alt pass__iconlock'></i>
-            <i class='bx bx-low-vision pass__iconeye'></i>
+            <i class='bx bx-low-vision pass__iconeye' onclick="funEye(event)"></i>
           </div>
           <ul class="pass__list">
-            <li class="pass__item">Upper Case</li>
-            <li class="pass__item">Speical Character</li>
-            <li class="pass__item">Number</li>
-            <li class="pass__item">More than 8 characters</li>
+            <li class="pass__item"><i class='bx bx-x pass__iconx'></i> Upper Case</li>
+            <li class="pass__item"><i class='bx bx-x pass__iconx'></i> Speical Character</li>
+            <li class="pass__item"><i class='bx bx-x pass__iconx'></i> Number</li>
+            <li class="pass__item"><i class='bx bx-x pass__iconx'></i> More than 8 characters</li>
           </ul>
         </div>
       </div>

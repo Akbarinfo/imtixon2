@@ -56,6 +56,10 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -69,6 +73,7 @@ html {
   background-color: black;
   border-radius: 8px;
   padding: 10px 50px;
+  margin-bottom: 25px;
 }
 
 .pass__input {
@@ -94,6 +99,33 @@ html {
   right: 10px;
   font-size: 24px;
   color: #fff;
+}
+
+.pass__list {
+  width: 371px;
+  background-color: #000;
+  border-radius: 8px;
+  list-style-type: none;
+  padding: 25px 20px;
+}
+
+.pass__item {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.pass__item:last-child {
+  margin-bottom: 0;
+}
+
+.pass__iconx {
+  position: relative;
+  top: 7px;
+  font-size: 24px;
+  color: #fff;
+  margin-right: 15px;
 }
 
 /* FOOTER PART */
