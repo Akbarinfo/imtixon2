@@ -22,14 +22,14 @@
         <div class="pass__box">
           <div class="pass__inputbox" id="inputbox">
             <input class="pass__input" type="password" id="pass" placeholder="Password">
-            <i class='bx bxs-lock-alt pass__iconlock'></i>
-            <i class='bx bx-low-vision pass__iconeye' onclick="funEye(event)"></i>
+            <i class='bx bxs-lock-alt pass__iconlock' id="lock"></i>
+            <i class='bx bx-low-vision pass__iconeye' id="eye"></i>
           </div>
-          <ul class="pass__list">
-            <li class="pass__item"><i class='bx bx-x pass__iconx'></i> Upper Case</li>
-            <li class="pass__item"><i class='bx bx-x pass__iconx'></i> Speical Character</li>
-            <li class="pass__item"><i class='bx bx-x pass__iconx'></i> Number</li>
-            <li class="pass__item"><i class='bx bx-x pass__iconx'></i> More than 8 characters</li>
+          <ul class="pass__list" id="listbox">
+            <li class="pass__item"><i class='bx bx-x pass__iconx' id="onex"></i> Upper Case</li>
+            <li class="pass__item"><i class='bx bx-x pass__iconx' id="twox"></i> Speical Character</li>
+            <li class="pass__item"><i class='bx bx-x pass__iconx' id="threex"></i> Number</li>
+            <li class="pass__item"><i class='bx bx-x pass__iconx' id="fourx"></i> More than 8 characters</li>
           </ul>
         </div>
       </div>

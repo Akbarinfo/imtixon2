@@ -1,0 +1,2 @@
+tring())
+    console.log(...v)

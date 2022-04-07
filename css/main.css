@@ -85,6 +85,10 @@ html {
   padding: 15px;
 }
 
+.pass__input:focus {
+  outline: none;
+}
+
 .pass__iconlock {
   position: absolute;
   top: 33%;
@@ -107,6 +111,9 @@ html {
   border-radius: 8px;
   list-style-type: none;
   padding: 25px 20px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  opacity: 0;
 }
 
 .pass__item {

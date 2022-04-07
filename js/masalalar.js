@@ -62,24 +62,25 @@
 
 // masala 5
 
-// let arrays = [1, [2, 3], {x: 1}]
-// let newarray = []
+// let array = [1, [2, 3], undefined, {x: 1}];
+// let newarray = [];
 
-
-// for(let i = 0; i < arrays.length; i++) {
-//   let a = arrays[i]
-
-//   if(Array.isArray(a)) {
-//     newarray.push(...a)
-//   }
-//   if(typeof arrays[i] === 'object') {
-//     let b = JSON.stringify(arrays[i])
-//     console.log(b)
-//     newarray.push(a)
+// for(let i = 0; i < array.length; i++){
+//   if(Number.isInteger(array[i])){
+//     newarray.push(array[i]);
+//   } else if (Array.isArray(array[i])){
+//     array[i].forEach((item) => {
+//       newarray.push(item);
+//     })
+//   } else if(typeof array[i] === "object"){
+//       newarray.push(Object.keys(array[i])[0]);
+//       newarray.push(Object.values(array[i])[0]);
+//   } else{
+//     newarray.push(array[i]);
 //   }
 // }
 
-// console.log(newarray)
+// console.log(newarray);
 
 
 // masala 6
